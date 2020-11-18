@@ -1,0 +1,14 @@
+{
+  "name": "yahoo-finance-api",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "doctrine/dbal": "^2.12",
+    "scheb/yahoo-finance-api": "^4.0",
+    "ext-json": "*"
+  },
+  "minimum-stability": "stable"
+}
